@@ -20,6 +20,7 @@ Live Demo https://codepen.io/maheshdama13/pen/KWqXjb <br/><br/>
 ##Example
 
 ```javascript
+    //initialise c3 chart
     var chart = c3.generate({
         bindto: '#chart1',
         data: {
@@ -36,6 +37,7 @@ Live Demo https://codepen.io/maheshdama13/pen/KWqXjb <br/><br/>
         }
     });
     
+    //initialise zoomableChart pass c3 charts variable to it with options
     zoomableChart(chart, {
         yMin:100,
         xSlider: true,
