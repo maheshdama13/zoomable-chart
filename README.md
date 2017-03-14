@@ -4,7 +4,7 @@ Zoomable Chart is a combination of "C3" reusable chart library and "noUiSlider" 
 
 A zoom and pan plugin for C3 chart >= 0.4.11
 
-Panning and zooming can be done via slider. moUiSlider is used for slider. <br/>
+Panning and zooming can be done via slider. noUiSlider is used for slider. <br/>
 ####Libraries used: <br/>
 https://github.com/jquery/jquery<br/>
 https://github.com/twbs/bootstrap<br/>
