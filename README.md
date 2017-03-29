@@ -5,19 +5,19 @@ Zoomable Chart is a combination of "C3" reusable chart library and "noUiSlider" 
 A zoom and pan plugin for C3 chart >= 0.4.11
 
 Panning and zooming can be done via slider. moUiSlider is used for slider. <br/>
-####Libraries used: <br/>
+#### Libraries used: <br/>
 https://github.com/jquery/jquery<br/>
 https://github.com/twbs/bootstrap<br/>
 https://github.com/c3js/c3 <br/>
 https://github.com/leongersen/noUiSlider <br/> <br/>
 Live Demo https://codepen.io/maheshdama13/pen/KWqXjb <br/><br/>
 
-##How it works
+## How it works
 ```javascript
 	zoomableChart(C3 Chart Variable, Options);
 ```
 
-##Example
+## Example
 
 ```javascript
     //initialise c3 chart
@@ -49,9 +49,9 @@ Live Demo https://codepen.io/maheshdama13/pen/KWqXjb <br/><br/>
 });
 ```
 
-###<b>Options:</b><br/>
+### <b>Options:</b><br/>
 
-##<big><b>Sliders</b></big><br/>
+## <big><b>Sliders</b></big><br/>
 <b>To display X axis slider:</b>
 ```javascript
 xSlider: true | false (default: true)
@@ -63,7 +63,7 @@ xSlider: true | false (default: true)
 ySlider: true | false (default: true)
 ```
 
-##<big><b>Tooltips</b></big><br/>
+## <big><b>Tooltips</b></big><br/>
 <b>X axis tooltip</b>
 ```javascript
 xTooltip: true | false (default: true)
@@ -84,7 +84,7 @@ xTooltipFormat: 'int' | 'float' (default: 'int')
 yTooltipFormat: 'int' | 'float' (default: 'int')
 ```
 
-##<big><b>Range</b></big><br/>
+## <big><b>Range</b></big><br/>
 <b>X axis range</b> (if not given than it will take automatically)
 ```javascript
 xRange: {
@@ -101,7 +101,7 @@ yRange: {
 }
 ```
 
-##<big><b>Selected Range</b> (Define zoom range while page load)</big><br/>
+## <big><b>Selected Range</b> (Define zoom range while page load)</big><br/>
 <b>X axis selected range</b> (if not given than it will take automatically)
 ```javascript
 xSelected: {
@@ -119,7 +119,7 @@ ySelected: {
 }
 ```
 
-##<big><b>Define step of sliders:</b></big><br/>
+## <big><b>Define step of sliders:</b></big><br/>
 <b>X axis Step:</b>
 ```javascript
 xStep: 1 to n (default:1)
